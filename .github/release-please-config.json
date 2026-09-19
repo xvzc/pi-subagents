@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "bootstrap-sha": "e955e29c51b7a6cce37e1108cd2d6c57a77e151c",
+  "packages": {
+    ".": {
+      "release-type": "node",
+      "package-name": "@xvzc/pi-subagents"
+    }
+  }
+}

@@ -2,7 +2,7 @@
  * ab.mjs — run the benchmarks against the working tree AND against another git
  * ref, then print the difference.
  *
- *   npm run bench:ab -- master
+ *   npm run bench:ab -- main
  *   npm run bench:ab -- HEAD~1 --rounds 5 --filter viewer
  *
  * This is the question `vitest bench --compare` cannot answer. `--compare` only
@@ -44,7 +44,7 @@ function usage(message) {
   console.error(`
   Usage: npm run bench:ab -- <ref> [--rounds N] [--filter substring]
 
-    <ref>       git ref to compare the working tree against (e.g. master, HEAD~1)
+    <ref>       git ref to compare the working tree against (e.g. main, HEAD~1)
     --rounds    how many alternating A/B rounds to run (default 3)
     --filter    only benchmark files whose path contains this substring
 `);

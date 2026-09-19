@@ -1,16 +1,16 @@
 {
-  "name": "@tintinweb/pi-subagents",
-  "version": "0.19.0",
+  "name": "@xvzc/pi-subagents",
+  "version": "0.19.1",
   "description": "A pi extension that brings Claude Code-like sub-agents and workflow orchestration to pi — parallel execution, live widget, fleet view, custom agent types, mid-run steering, dynamic workflows, Claude Code compatibility, look and feel.",
   "author": "tintinweb",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tintinweb/pi-subagents.git"
+    "url": "https://github.com/xvzc/pi-subagents.git"
   },
-  "homepage": "https://github.com/tintinweb/pi-subagents#readme",
+  "homepage": "https://github.com/xvzc/pi-subagents#readme",
   "bugs": {
-    "url": "https://github.com/tintinweb/pi-subagents/issues"
+    "url": "https://github.com/xvzc/pi-subagents/issues"
   },
   "publishConfig": {
     "access": "public"
@@ -46,10 +46,13 @@
     "check": "npm run lint && npm run typecheck && npm run test",
     "test:coverage": "vitest run --coverage",
     "bench": "vitest bench",
-    "bench:ab": "node test/perf/ab.mjs"
+    "bench:ab": "node test/perf/ab.mjs",
+    "commitlint": "commitlint"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.14",
+    "@commitlint/cli": "^21.2.2",
+    "@commitlint/config-conventional": "^21.2.2",
     "@earendil-works/pi-ai": "0.84.2",
     "@earendil-works/pi-coding-agent": "0.84.2",
     "@earendil-works/pi-tui": "0.84.2",
@@ -62,7 +65,7 @@
     "extensions": [
       "./src/index.ts"
     ],
-    "video": "https://github.com/tintinweb/pi-subagents/raw/master/media/demo.mp4",
-    "image": "https://github.com/tintinweb/pi-subagents/raw/master/media/screenshot.png"
+    "video": "https://github.com/xvzc/pi-subagents/raw/main/media/demo.mp4",
+    "image": "https://github.com/xvzc/pi-subagents/raw/main/media/screenshot.png"
   }
 }

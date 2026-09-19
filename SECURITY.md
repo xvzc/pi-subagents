@@ -1,6 +1,6 @@
 # Security Policy
 
-This document explains the security model behind `@tintinweb/pi-subagents` and
+This document explains the security model behind `@xvzc/pi-subagents` and
 where the boundaries are.
 
 `pi-subagents` is a [pi](https://pi.dev) extension. It spawns and orchestrates
@@ -31,7 +31,7 @@ coding agent and its sub-agents trivially, and this cannot be protected against.
 
 If you believe you found a security vulnerability in `pi-subagents`, please
 report it privately by opening a draft advisory through
-[GitHub Security Advisories](https://github.com/tintinweb/pi-subagents/security/advisories/new)
+[GitHub Security Advisories](https://github.com/xvzc/pi-subagents/security/advisories/new)
 for this repository.
 
 Please include:
@@ -91,5 +91,5 @@ is out of scope.
 
 When possible, include the exact affected path, package version or commit SHA,
 configuration, and a proof of concept against the latest release or latest
-`master`. For dependency reports, include evidence that the shipped dependency is
+`main`. For dependency reports, include evidence that the shipped dependency is
 affected and that the issue is reachable through `pi-subagents`.

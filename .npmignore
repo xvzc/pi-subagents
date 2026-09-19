@@ -3,6 +3,7 @@ tsconfig.json
 .vscode/
 .git/
 .gitignore
+.worktrees/
 
 # Documentation
 PLAN.md

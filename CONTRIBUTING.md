@@ -1,4 +1,4 @@
-# Contributing to @tintinweb/pi-subagents
+# Contributing to @xvzc/pi-subagents
 
 This guide exists to save both sides time.
 
@@ -54,7 +54,7 @@ All four must pass. `npm run lint:fix` will auto-fix most style issues, and
 `npm run test:e2e` runs the end-to-end suite if your change touches that surface.
 
 If your change touches a render path or the spawn path, `npm run bench` prints
-absolute timings and `npm run bench:ab -- master` compares them against master.
+absolute timings and `npm run bench:ab -- main` compares them against main.
 Neither is required to pass; both are opt-in, and neither runs in CI.
 
 Other guidelines:
@@ -68,5 +68,5 @@ Other guidelines:
 
 ## Questions?
 
-Open an [issue](https://github.com/tintinweb/pi-subagents/issues) — questions and
+Open an [issue](https://github.com/xvzc/pi-subagents/issues) — questions and
 discussion are welcome.
