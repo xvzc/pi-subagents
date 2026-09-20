@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.19.3](https://github.com/xvzc/pi-subagents/compare/v0.19.2...v0.19.3) (2026-09-20)
+
+
+### Miscellaneous Chores
+
+* **release:** prepare 0.19.3 ([024d1d9](https://github.com/xvzc/pi-subagents/commit/024d1d91d9e8b64a4c0ec58c3c4b68af3b9d5bd1))
+
 ## [0.19.2](https://github.com/xvzc/pi-subagents/compare/v0.19.1...v0.19.2) (2026-09-19)
 
 
